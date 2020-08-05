@@ -1,0 +1,58 @@
+<b id="d1">pay to a Term loan:selection Facility</b>
+<br>
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<br>
+
+<span id="d2">select facility:
+
+    <select [(ngModel)]="facilityFlag">
+        <option value="">none selected</option>
+    <option value="1">facility-2</option>
+    <option value="2">facility-1</option>
+    <option value="3">facility-3</option>
+    <option value="4">facility-4</option>
+    <option value="5">facility-5</option>
+  </select>
+  
+  </span>
+  <br>
+  <br>
+  <div id="d3">
+  <div *ngIf = "facilityFlag">
+    <div>Transform from checking amount:<select>
+      <option>select amount</option>
+      <option>000001 fire department</option>
+      <option>000002 fire department</option>
+      <option>000003 fire department</option>
+      <option>000004 fire department</option>
+      <option>000006 fire department</option>
+    </select>
+    </div>
+    <br>
+    <div>Transfer to loan amount:
+
+      <select>
+          <option>select amount</option>
+      <option>12345 max line</option>
+      <option>12346 max line</option>
+      <option>12347 max line</option>
+      <option>12348 max line </option>
+      <option>12349 max line</option>
+    </select>
+    </div>
+  </div>
+</div>
+  
+  <br>
+  <br>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+  <br>
+  <div class="container-fluid">
+    
+    <div class="row">
+      <div class="col-sm-6" style="padding-left:400px;" ><button style="background-color: green;">close</button></div>
+      <div class="col-sm-6" style="padding-left:100px;" ><button style="background-color: orange;">next</button></div>
+    </div>
+  </div>
+  
